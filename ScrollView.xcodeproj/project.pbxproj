@@ -19,6 +19,7 @@
 		8372CF01287E6A9E00435C19 /* ScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372CF00287E6A9E00435C19 /* ScrollViewTests.swift */; };
 		8372CF0B287E6A9E00435C19 /* ScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372CF0A287E6A9E00435C19 /* ScrollViewUITests.swift */; };
 		8372CF0D287E6A9E00435C19 /* ScrollViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372CF0C287E6A9E00435C19 /* ScrollViewUITestsLaunchTests.swift */; };
+		83C67C77287E8BB90030A1DF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C67C76287E8BB90030A1DF /* DetailViewController.swift */; };
 		AD9062C72ABF13E535FFB920 /* Pods_ScrollView_ScrollViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8154636B3C312E694E471359 /* Pods_ScrollView_ScrollViewUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		8372CF06287E6A9E00435C19 /* ScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8372CF0A287E6A9E00435C19 /* ScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUITests.swift; sourceTree = "<group>"; };
 		8372CF0C287E6A9E00435C19 /* ScrollViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83C67C76287E8BB90030A1DF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8B7BF980F5A302999C35D96D /* Pods-ScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollView.release.xcconfig"; path = "Target Support Files/Pods-ScrollView/Pods-ScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		C53369AC1E47A404EA9C4476 /* Pods-ScrollView-ScrollViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollView-ScrollViewUITests.release.xcconfig"; path = "Target Support Files/Pods-ScrollView-ScrollViewUITests/Pods-ScrollView-ScrollViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6DAC435FFDC52C55EB72D8F /* Pods-ScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewTests.release.xcconfig"; path = "Target Support Files/Pods-ScrollViewTests/Pods-ScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 				C8E49521CD2CF8FD4185FC93 /* Pods-ScrollViewTests.debug.xcconfig */,
 				C6DAC435FFDC52C55EB72D8F /* Pods-ScrollViewTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +138,7 @@
 				8372CEEA287E6A9600435C19 /* ViewController.swift */,
 				8372CEEC287E6A9600435C19 /* Main.storyboard */,
 				8372CEF2287E6A9D00435C19 /* Assets.xcassets */,
+				83C67C76287E8BB90030A1DF /* DetailViewController.swift */,
 				8372CEF4287E6A9D00435C19 /* LaunchScreen.storyboard */,
 				8372CEF7287E6A9D00435C19 /* Info.plist */,
 				8372CEEF287E6A9600435C19 /* ScrollView.xcdatamodeld */,
@@ -412,6 +414,7 @@
 			files = (
 				8372CEEB287E6A9600435C19 /* ViewController.swift in Sources */,
 				8372CEF1287E6A9600435C19 /* ScrollView.xcdatamodeld in Sources */,
+				83C67C77287E8BB90030A1DF /* DetailViewController.swift in Sources */,
 				8372CEE7287E6A9600435C19 /* AppDelegate.swift in Sources */,
 				8372CEE9287E6A9600435C19 /* SceneDelegate.swift in Sources */,
 			);
